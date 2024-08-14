@@ -5,7 +5,7 @@ Step by step this script is meant to:
 
 2. Calculate the percentage of points and to throw an error if it is 0
 
-3. check wether the submission date is past the due date
+3. check whether the submission date is past the due date
 
 4. gather data from the assignment id, date sumbitted, and final score of the assignment
 

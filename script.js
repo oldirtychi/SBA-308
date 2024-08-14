@@ -28,7 +28,7 @@ function getLearnerData(courseInfo, assignmentGroup, learnerSubmissions) {
 
   //calculate grade percentage
   function calculatePercentage(score, pointsPossible) {
-    if (pointspossible === 0) {
+    if (pointsPossible === 0) {
       throw new Error("Grade cannot be 0");
     }
 return (score / pointsPossible) * 100;
@@ -91,7 +91,7 @@ const courseInfo = {
 const assignmentGroup = {
   id: 300,
   name: "Fundamentals of JavaScript",
-  course_id: 308  ,
+  course_id: 101  ,
   group_weight: 100,
   assignments: [
     {

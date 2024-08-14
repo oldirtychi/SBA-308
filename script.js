@@ -13,44 +13,71 @@ const assignmentGroup = {
   assignments: [
     {
         id: 1,
-        name: "Run a loop",
-        due_on: "2024-08-01",
+        name: "Declare a Variable",
+        due_on: "2023-01-25",
         points_possible: 50
     },
     {
         id: 2, 
-        name:"",
-        due_at: "",
-        points_possible: 50
-    }
+        name:"Write a Function",
+        due_at: "2023-02-27",
+        points_possible: 150
+    },
     {
         id: 3,
-        name:"",
-        due_at: "",
-        points_possible: 50
+        name:"Code the World",
+        due_at: "3156-11-15",
+        points_possible: 500
     }
   ]
 };
 
-// Each AssignmentInfo object within the assignments array looks like this:
-{
-  "id": number,
-  "name": string,
-  // the due date for the assignment
-  "due_at": Date string,
-  // the maximum points possible for the assignment
-  "points_possible": number,
-}
 
-// An array of LearnerSubmission objects, which each look like this:
-{
-    "learner_id": number,
-    "assignment_id": number,
-    "submission": {
-      "submitted_at": Date string,
-      "score": number
+const learnerSubmissions = [
+  {
+    learner_id: 125,
+    assignment_id: 1,
+    submission: {
+      submitted_at: "2023-01-25",
+      score: 47
     }
-}
+  },
+  {
+    learner_id: 125,
+    assignment_id: 2,
+    submission: {
+      submitted_at: "2023-02-12",
+      score: 150
+    }
+  },
+  {
+    learner_id: 125,
+    assignment_id: 3,
+    submission: {
+      submitted_at: "2023-01-25",
+      score: 400
+    }
+  },
+  {
+    learner_id: 132,
+    assignment_id: 1,
+    submission: {
+      submitted_at: "2023-01-24",
+      score: 39
+    }
+  },
+  {
+    learner_id: 132,
+    assignment_id: 2,
+    submission: {
+      submitted_at: "2023-03-07",
+      score: 140
+    }
+  }
+];
+
+
+
 
 
 // {
